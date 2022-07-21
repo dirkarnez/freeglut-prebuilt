@@ -10,7 +10,7 @@ jobs:
     name: Create Release
     runs-on: windows-2019
     env:
-      libraryName: midifile
+      libraryName: freeglut
       cmakeInstallationPath: freeglut-installation
       tagName: v3.2.2
       mingwTargetZip: freeglut-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
