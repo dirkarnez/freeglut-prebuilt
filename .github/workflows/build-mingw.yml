@@ -20,7 +20,7 @@ jobs:
         
       - name: git clone
         shell: cmd
-        run: git clone https://github.com/FreeGLUTProject/freeglut.git && cd freeglut && git checkout ${{tagName}}
+        run: git clone https://github.com/FreeGLUTProject/freeglut.git && cd freeglut && git checkout ${{ env.tagName }}
 
       - name: cmake
         shell: cmd
